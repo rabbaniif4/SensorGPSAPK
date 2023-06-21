@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LatihanSensorGPS_10120130</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="lokasi">lokasi</string>
+    <string name="about">About</string>
+    <string name="swipe"><![CDATA[<-- Swipe]]></string>
+</resources>

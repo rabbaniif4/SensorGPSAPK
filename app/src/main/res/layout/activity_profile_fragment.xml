@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    MUHAMMAD RABBANI A-->
+<!--    IF-4-->
+<!--    10120130-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fotoprofile"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/namatxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Rabbani Albaihaqi"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/fotoprofile"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/kelastxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10120130"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/namatxt"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:id="@+id/nimtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IF-4"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/kelastxt"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:id="@+id/emailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="alb.dabba@gmail.com"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/nimtxt"
+            android:paddingTop="10dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

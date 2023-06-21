@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    MUHAMMAD RABBANI A-->
+<!--    IF-4-->
+<!--    10120130-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/navigation_about"
+    android:icon="@drawable/baseline_info_24"
+    android:title="@string/about" />
+
+    <item
+        android:id="@+id/navigation_lokasi"
+        android:icon="@drawable/baseline_location_on_24"
+        android:title="@string/lokasi" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/profile" />
+
+</menu>
